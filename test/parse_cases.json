@@ -1,0 +1,48 @@
+[
+  {
+    "desc": "PostgreSQL URL with username/password",
+    "url": "postgres://pwnall:sekret@localhost/pwnbase",
+    "config": {
+      "driver": "postgres",
+      "user": "pwnall",
+      "password": "sekret",
+      "host": "localhost",
+      "database": "pwnbase"
+    }
+  },
+  {
+    "desc": "MySQL URL with username/password and host/port",
+    "url": "mysql://someuser@server.heroku.com:1337/herokudb",
+    "config": {
+      "driver": "mysql",
+      "user": "someuser",
+      "host": "server.heroku.com",
+      "port": "1337",
+      "database": "herokudb"
+    }
+  },
+  {
+    "desc": "SQLite URL with file name",
+    "url": "sqlite3://development.sqlite",
+    "config": {
+      "driver": "sqlite3",
+      "filename": "development.sqlite"
+    }
+  },
+  {
+    "desc": "SQLite URL with relative path",
+    "url": "sqlite3://path/to/test.sqlite",
+    "config": {
+      "driver": "sqlite3",
+      "filename": "path/to/test.sqlite"
+    }
+  },
+  {
+    "desc": "SQLite URL with absolute path",
+    "url": "sqlite3:///path/to/test.sqlite",
+    "config": {
+      "driver": "sqlite3",
+      "filename": "/path/to/test.sqlite"
+    }
+  }
+]
