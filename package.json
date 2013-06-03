@@ -19,8 +19,8 @@
   "dependencies": {
   },
   "devDependencies": {
-    "chai": ">= 1.5.0",
-    "mocha": ">= 1.9.0"
+    "chai": ">= 1.6.0",
+    "mocha": ">= 1.10.0"
   },
   "main": "lib/parse-database-url.js",
   "directories": {
