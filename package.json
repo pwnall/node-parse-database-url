@@ -1,6 +1,6 @@
 {
   "name": "parse-database-url",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Database configuration URL parser for node.js",
   "keywords": ["database", "configuration", "url", "heroku", "database_url"],
   "homepage": "https://github.com/pwnall/node-parse-database-url",
