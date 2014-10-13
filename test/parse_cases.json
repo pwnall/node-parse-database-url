@@ -68,5 +68,14 @@
       "database": "database",
       "reconnect": "true"
     }
+  },
+  {
+      "desc": "Redis URL, which doesn't have a path (Issue #4)",
+      "url": "redis://localhost:6379",
+      "config": {
+        "driver": "redis",
+        "host": "localhost",
+        "port": "6379"
+      }
   }
 ]
