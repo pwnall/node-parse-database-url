@@ -70,6 +70,18 @@
     }
   },
   {
+    "desc": "Cloud Foundry ClearDB connection string with mysql2 scheme",
+    "url": "mysql2://user:pass@host/database?reconnect=true",
+    "config": {
+      "driver": "mysql",
+      "user": "user",
+      "password": "pass",
+      "host": "host",
+      "database": "database",
+      "reconnect": "true"
+    }
+  },
+  {
       "desc": "Redis URL, which doesn't have a path (Issue #4)",
       "url": "redis://localhost:6379",
       "config": {
