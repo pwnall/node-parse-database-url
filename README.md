@@ -1,5 +1,8 @@
 # DATABASE_URL parser for node.js
 
+[![Build Status](https://travis-ci.org/pwnall/node-parse-database-url.svg)](https://travis-ci.org/pwnall/node-parse-database-url)
+[![NPM Version](http://img.shields.io/npm/v/parse-database-url.svg)](https://www.npmjs.org/package/parse-database-url)
+
 This is an [npm](https://npmjs.org/) package that parses database
 configurations passed in as URLs. This is typically useful in Heroku
 deployments, where the database configuration is given in the `DATABASE_URL`

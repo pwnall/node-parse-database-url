@@ -17,10 +17,11 @@
     "node": ">= 0.6"
   },
   "dependencies": {
+    "mongodb-uri": ">= 0.9.7"
   },
   "devDependencies": {
-    "chai": ">= 1.6.0",
-    "mocha": ">= 1.10.0"
+    "chai": ">= 3.4.1",
+    "mocha": ">= 2.3.4"
   },
   "main": "lib/parse-database-url.js",
   "directories": {
