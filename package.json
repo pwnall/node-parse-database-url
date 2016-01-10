@@ -17,6 +17,7 @@
     "node": ">= 0.6"
   },
   "dependencies": {
+    "mongodb-uri": "^0.9.7"
   },
   "devDependencies": {
     "chai": ">= 1.6.0",
