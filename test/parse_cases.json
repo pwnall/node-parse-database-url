@@ -91,6 +91,16 @@
       }
   },
   {
+    "desc": "Mongo URL",
+    "url": "mongodb://localhost:27017/database",
+    "config": {
+      "driver": "mongodb",
+      "database": "database",
+      "host": "localhost",
+      "port": "27017"
+    }
+  },
+  {
       "desc": "Mongo URL with have replica set",
       "url": "mongodb://localhost:27017,localhost:27018,localhost:27019/database",
       "config": {
